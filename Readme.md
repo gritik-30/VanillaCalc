@@ -10,3 +10,5 @@
 
 This is a very simple calculator built with bare basics of Web Tecnologies. It is created as an assignment for GDSC (Google Developer Student Club) VCACS.
 The calculator accepts input form screen as well as physical keyboard.
+
+Shoutout to [Color Hunt](https://colorhunt.co/palette/3630624d4c7df99417f5f5f5) for the color palette.
