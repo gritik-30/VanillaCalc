@@ -1,4 +1,4 @@
-# Basic Calculator
+# VanillaCalc
 
 ## Preview:
 ![image](https://github.com/gritik-30/basic-calculator/assets/90999352/ac1feab1-c72f-4c45-949b-91942165d496)
