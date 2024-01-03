@@ -19,6 +19,7 @@ window.onload = function () {
     const addToCurrentValue = (event) => {
         const value = event.target.value;
         screen.innerHTML = screen.innerHTML.concat(value);
+        event.target.blur()
     }
 
     const backspace = () => {
@@ -27,6 +28,10 @@ window.onload = function () {
 
     const captureKeyStroke = (event) => {
         const key = event.key;
+
+        if (key.startsWith('F')) {
+            return;
+        }
         if (allowedCharacters.test(key)) {
             addToCurrentValue({ target: { value: key } });
         } else if (key == 'Enter' || key == "=") {
